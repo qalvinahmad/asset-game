@@ -1,0 +1,13 @@
+# Membuat file map1.txt dengan isi sesuai permintaan user
+file_path = "/mnt/data/map1.txt"
+map_data = """1,1,1,1,1
+1,0,0,0,1
+1,0,2,0,1
+1,0,0,0,1
+1,1,1,1,1"""
+
+# Menulis isi map ke dalam file
+with open(file_path, "w") as file:
+    file.write(map_data)
+
+file_path

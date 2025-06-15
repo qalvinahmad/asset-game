@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src", // Menetapkan baseUrl untuk jalur relatif
+    "paths": {
+      "@/*": ["*"]
+    },
+    "target": "es6", // Atur versi ECMAScript yang ingin digunakan
+    "module": "commonjs", // Atur jenis modul
+    "strict": true, // Aktifkan mode ketat untuk pemeriksaan kesalahan
+    "esModuleInterop": true, // Aktifkan interoperabilitas modul ES
+    "skipLibCheck": true, // Lewati pemeriksaan type di file definisi .d.ts
+    "forceConsistentCasingInFileNames": true // Jaga konsistensi huruf besar-kecil dalam nama file
+  },
+  "extends": "./node_modules/expo/tsconfig.base"
+}

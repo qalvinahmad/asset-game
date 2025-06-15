@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Block Go Crossing",
+    "slug": "blockgocrossing",
+    "privacy": "public",
+    "orientation": "portrait",
+    "primaryColor": "#87C6FF",
+    "icon": "./assets/icons/app.png",
+    "splash": {
+      "image": "./assets/icons/loading.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#87C6FF"
+    },
+    "ios": {
+      "icon": "./assets/icons/app.png",
+      "supportsTablet": true,
+      "buildNumber": "0.0.0"
+    },
+    "android": {
+      "icon": "./assets/icons/app.png",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6625b135-4ac8-4e1f-881a-5a40853dbb6d"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
